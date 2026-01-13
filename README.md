@@ -34,24 +34,24 @@ This project was developed as part of the **Unmanned Flight XR course** and focu
 - **Data:** Real-world 3D Tiles streamed dynamically using **Cesium ion**
 - **Georeferencing:** Cesium World Terrain + Photorealistic 3D Tiles
 
-
 ## 🎮 Controls
 
-### 🥽 VR Mode (Meta Quest 2 – XR)
+### 🥽 VR Mode
+- Left joystick: horizontal movement (forward, backward, strafe)
+- Movement direction follows the headset orientation (camera forward)
+- Right joystick (Y axis): vertical flight (ascend / descend)
 
-- **Left Joystick:**  
-  - Forward / backward movement  
-  - Strafing  
-- **Head orientation:**  
-  - Movement direction follows camera view  
-- **Right Joystick (Y axis):**  
-  - Vertical flight (up / down)
+### ⌨️ Keyboard Mode (Non-VR / Test Mode)
+The keyboard can be used to test the drone movement without a VR headset.
 
-### ⌨️ Keyboard Mode (Testing)
+- Z: Move forward
+- S: Move backward
+- Q: Move left
+- D: Move right
+- E: Ascend
+- A: Descend
 
-- Keyboard movement and rotation  
-- Mouse look for camera control  
-*(Used for development and testing when VR hardware is unavailable)*
+Mouse movement is used to control the camera orientation.
 
 
 ## 📁 Main Scripts
