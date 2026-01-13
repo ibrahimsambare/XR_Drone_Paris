@@ -1,1 +1,94 @@
-# XR_Drone_Paris
+# XR Drone – Paris (School Project)
+
+## 🎥 Demo Video  
+👉 Click here to watch the demo video  
+https://youtu.be/h71vIgRb47g?si=8p3HaBFukjwgZVRs
+
+## 📌 Project Overview
+
+This project is a **mini immersive VR drone flight experience** developed in **Unity**, using **Cesium for Unity** to visualize a **real, georeferenced urban environment**.
+
+The user controls a **virtual drone** and can fly freely over **Paris, France**, from a **first-person perspective**, using XR-based locomotion and custom vertical flight controls.
+
+The main objective of this project is to explore:
+- real-time **3D Tiles streaming**,
+- **XR locomotion mechanics**,
+- and **immersive navigation** in a large-scale real-world city.
+
+This project was developed as part of the **Unmanned Flight XR course** and focuses on learning **Unity XR**, **Cesium integration**, and **drone-like movement behaviors**.
+
+
+## 🛠️ Technologies Used
+
+- **Unity**
+- **Cesium for Unity**
+- **Cesium ion**
+- **XR Interaction Toolkit**
+- **OpenXR**
+- **C#**
+
+
+## 🌍 Environment
+
+- **City:** Paris, France  
+- **Data:** Real-world 3D Tiles streamed dynamically using **Cesium ion**
+- **Georeferencing:** Cesium World Terrain + Photorealistic 3D Tiles
+
+
+## 🎮 Controls
+
+### 🥽 VR Mode (Meta Quest 2 – XR)
+
+- **Left Joystick:**  
+  - Forward / backward movement  
+  - Strafing  
+- **Head orientation:**  
+  - Movement direction follows camera view  
+- **Right Joystick (Y axis):**  
+  - Vertical flight (up / down)
+
+### ⌨️ Keyboard Mode (Testing)
+
+- Keyboard movement and rotation  
+- Mouse look for camera control  
+*(Used for development and testing when VR hardware is unavailable)*
+
+
+## 📁 Main Scripts
+
+- **VerticalFlight.cs**  
+  → Controls vertical drone movement using the right joystick
+
+- **Keyboard.cs**  
+  → Allows non-VR keyboard testing
+
+- **DroneInertia.cs**  
+  → Adds smooth movement, tilt, and drone-like inertia behavior
+
+
+## ⚠️ Known Limitations
+
+- Cesium tiles are streamed dynamically, causing **visible pop-in**
+- Local tile caching was discovered late and is **not implemented**
+- VR functionality is implemented but **not fully tested** due to limited access to VR hardware
+
+
+## 🚀 Future Work
+
+- Full VR hardware testing
+- Local caching of Cesium tiles
+- Improved streaming performance
+- More realistic drone physics and inertia
+- UI overlay (altitude, speed, minimap)
+
+
+## 👥 Team
+
+Developed as part of a **university assignment**.
+
+- **Ibrahim Almountaka Sambare**
+
+
+## 📄 License
+
+Educational project created for **academic purposes only**.
